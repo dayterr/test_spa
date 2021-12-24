@@ -14,7 +14,6 @@
 * DEBUG – включен ли режим дебага в Django 
 * ALLOWED_HOSTS – разрешённые хосты
 
-Склонировать репозиторий: 
 ```
-git clone https://github.com/dayterr/test_spa.git
+Склонировать репозиторий: git clone https://github.com/dayterr/test_spa.git
 ```
