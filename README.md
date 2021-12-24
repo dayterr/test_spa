@@ -26,3 +26,5 @@
 Заполнить базу данных: `django-admin loaddata fixtures.json`
 
 Запустить проект: `python3 spa/manage.py runserver`
+
+Автор: Мария Дайтер – https://github.com/dayterr
