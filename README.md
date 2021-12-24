@@ -2,6 +2,8 @@
 
 Таблица в формате Single Page Application.
 
+Используемые технологии: Django, Bootstrap4, PostgreSQL
+
 Файл .env должен лежать в корневой папке. В себе он содержит следующие данные:
 
 * DB_ENGINE – используемая база данных 
@@ -17,21 +19,10 @@
 
 Склонировать репозиторий: `git clone https://github.com/dayterr/test_spa.git`
 
+Установить виртуальное окружение: `python3 -m venv venv`
 
-```
-Установить виртуальное окружение: python3 -m venv venv
-```
+Установить нужные библиотеки: `pip3 install -r requirements.txt`
 
-```
-//Установить нужные библиотеки: 
-pip3 install -r requirements.txt
-```
+Заполнить базу данных: `django-admin loaddata fixtures.json`
 
-```python
-#Заполнить базу данных: 
-django-admin loaddata fixtures.json
-```
-
-```
-Запустить проект: python3 spa/manage.py runserver
-```
+Запустить проект: `python3 spa/manage.py runserver`
