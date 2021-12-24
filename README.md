@@ -27,8 +27,8 @@
 pip3 install -r requirements.txt
 ```
 
-```
-//Заполнить базу данных: 
+```python
+#Заполнить базу данных: 
 django-admin loaddata fixtures.json
 ```
 
