@@ -17,3 +17,15 @@
 ```
 Склонировать репозиторий: git clone https://github.com/dayterr/test_spa.git
 ```
+
+```
+Установить виртуальное окружение: python3 -m venv venv
+```
+
+```
+Установить нужные библиотеки: pip3 install -r requirements.txt
+```
+
+```
+Запустить проект: python3 spa/manage.py runserver
+```
