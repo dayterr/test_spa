@@ -23,7 +23,13 @@
 ```
 
 ```
-Установить нужные библиотеки: pip3 install -r requirements.txt
+//Установить нужные библиотеки: 
+pip3 install -r requirements.txt
+```
+
+```
+//Заполнить базу данных: 
+django-admin loaddata fixtures.json
 ```
 
 ```
